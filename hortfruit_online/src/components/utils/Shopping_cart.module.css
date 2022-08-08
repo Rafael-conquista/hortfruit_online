@@ -1,0 +1,43 @@
+.fruits_selected {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+.fruit_quantity {
+    padding-left: 2.3em;
+}
+
+.quantity_options {
+    display: flex;
+    text-align: center;
+}
+
+.shopping_remove_button {
+    background-color: rgb(221, 69, 69);
+    cursor: pointer;
+    width: 50px;
+    border-radius: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+.shopping_remove_button:hover {
+    background-color: rgb(253, 113, 113);
+}
+
+.shopping_add_button {
+    background-color: rgb(25, 197, 25);
+    cursor: pointer;
+    width: 50px;
+    border-radius: 20%;
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.shopping_add_button:hover {
+    background-color: rgb(104, 253, 116);
+}

@@ -1,5 +1,5 @@
-.welcome_message{
-    padding-top:2em;
+.welcome_message {
+    padding-top: 2em;
     padding-bottom: 1em;
     color: rgb(25, 197, 25);
     display: grid;
@@ -8,7 +8,7 @@
     cursor: default;
 }
 
-.container_fruits{
+.container_fruits {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
@@ -16,18 +16,11 @@
     grid-template-columns: auto 30%;
 }
 
-*{
+* {
     margin: 0px;
 }
-.fruit_infos{
-    padding-top: 2px;
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-    margin: 0px 25px;
-}
 
-.box{
+.box {
     margin: 15px;
     height: 220px;
     background-color: rgb(230, 247, 221);
@@ -37,98 +30,54 @@
     border-radius: 5%;
 }
 
-.box h2{
+.box h2 {
     text-align: center;
     padding-bottom: 1em;
     letter-spacing: 6px;
 }
 
-.fruit_infos p{
+.fruit_infos p {
     padding-left: 2em;
     letter-spacing: 3px;
     font-size: large;
     padding-top: 2px;
 }
 
-.box:hover{
+.box:hover {
     background-color: rgb(218, 255, 198);
     transition: 0.5s;
     transform: translate(0%, -2%);
 }
 
-.fruits_area{
+.fruits_area {
     display: grid;
-    grid-template-columns: repeat(2,3fr);
+    grid-template-columns: repeat(2, 3fr);
 }
 
-.add_item{
-    background-color: rgb(25, 197, 25);
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-    transition: 0.5s;
-    border-radius: 10%;
-    color: white;
-    font-weight: bolder;
-}
-
-.add_item:hover{
-    background-color: rgb(104, 253, 116);
-    transition: 0.5s;
-    transform: translate(0%, -30%);
-}
-
-.remove_item{
-    background-color: rgb(221, 69, 69);
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-    transition: 0.5s;
-    border-radius: 10%;
-    color: white;
-    font-weight: bolder;
-}
-
-.remove_item:hover{
-    transition: 0.5s;
-    transform: translate(0%, -30%);
-    background-color: rgb(253, 113, 113);
-}
-
-.box_options{
-    display: grid;
-    grid-template-columns: repeat(2,3fr);
-    padding-left: 90px;
-    padding-top: 1.5em;
-    cursor: pointer;
-}
-
-.box_shopping_cart{
+.box_shopping_cart {
     margin-top: 20px;
     background-color: rgb(230, 247, 221);
     border-radius: 20px;
 }
 
-.box_shopping_cart:hover{
+.box_shopping_cart:hover {
     background-color: rgb(218, 255, 198);
 }
 
-.box_shopping_cart h1{
+.box_shopping_cart h1 {
     text-align: center;
     padding-top: 20px;
 }
 
-.items_quantity{
+.items_quantity {
     display: grid;
-    grid-template-columns: repeat(3,2fr);
+    grid-template-columns: repeat(3, 2fr);
     padding-top: 2em;
     padding-left: 2em;
     font-size: large;
 }
 
-.remove_all{
+.remove_all {
     color: rgb(226, 50, 50);
     cursor: pointer;
     transition: 0.5s;
@@ -136,56 +85,12 @@
     font-weight: bolder;
 }
 
-.remove_all:hover{
+.remove_all:hover {
     transition: 0.5s;
     transform: translate(0%, -30%);
 }
 
-.fruits_selected{
-    display: grid;
-    grid-template-columns: repeat(3,2fr);
-    padding-top: 1.5em;
-    padding-left: 2em;
-    padding-bottom: 1.5em;
-}
-
-.shopping_add_button{
-    background-color: rgb(25, 197, 25);
-    cursor: pointer;
-    width: 50px;
-    border-radius: 20%;
-    margin-left: 20px;
-    color: white;
-    font-weight: bolder;
-}
-
-.shopping_remove_button{
-    background-color: rgb(221, 69, 69);
-    cursor: pointer;
-    width: 50px;
-    border-radius: 20%;
-    color: white;
-    font-weight: bolder;
-}
-
-.shopping_add_button:hover{
-    background-color: rgb(104, 253, 116);
-}
-
-.shopping_remove_button:hover{
-    background-color: rgb(253, 113, 113);
-}
-
-.quantity_options{
-    display: flex;
-    text-align: center;
-}
-
-.fruit_quantity{
-    padding-left: 2.3em;
-}
-
-.buy_button{
+.buy_button {
     background-color: rgb(25, 197, 25);
     width: 150px;
     height: 40px;
@@ -200,13 +105,13 @@
     margin-top: 2.5em;
 }
 
-.buy_button:hover{
+.buy_button:hover {
     background-color: rgb(104, 253, 116);
     transition: 0.5s;
     transform: translate(0%, -30%);
 }
 
-.thanks_message{
+.thanks_message {
     font: rgb(25, 197, 25);
     margin-top: 2em;
     text-align: center;
