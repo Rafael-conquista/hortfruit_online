@@ -1,0 +1,6 @@
+export default {
+    testRegex: '.spec.js$',
+    transform: {
+        "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+};
